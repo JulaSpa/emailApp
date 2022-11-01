@@ -36,10 +36,7 @@ const Users = db.define('us', {
     },
     {
         tableName:'us',
-        timestamps: false,
-        defaultScope: {
-            attributes: { exclude: ['password'] },
-          }
+        timestamps: false
     }
 )
 //Users has many emails
